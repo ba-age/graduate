@@ -3,8 +3,8 @@
 <view class="container" style="margin-top:{{statusHeight+44}}px">
   <view class="user_info">
     <view class="user_name">
-      <image src="../../images/5x.png"></image>
-      <text>王老师（xxx机构）- 管理员</text>
+      <image src="../../images/attr(1).png"></image>
+      <text>Jack（江西理工大学）- CEO</text>
     </view>
     <image src="../../images/4x.png" class="change_icon"></image>
   </view>

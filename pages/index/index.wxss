@@ -20,7 +20,8 @@
 .user_name image{
   width: 78rpx;
   height: 78rpx;
-  margin-right: 20rpx
+  margin-right: 20rpx;
+  border-radius:50%
 }
 .change_icon{
   width: 40rpx;
