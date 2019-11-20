@@ -1,14 +1,57 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "components/navBar/navBar",
+    "components/tabBar/tabBar",
+    "pages/manage/manage",
+    "pages/publish/publish",
+    "pages/make/make",
+    "pages/mine/mine"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "custom": true,
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff", 
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "./images/tag/shouye.png",
+      "selectedIconPath": "./images/tag/shouyedianji.png",
+      "text": "首页"
+      },
+      {
+        "pagePath": "pages/manage/manage",
+        "iconPath": "./images/tag/guanli.png",
+        "selectedIconPath": "./images/tag/guanlidianji.png",
+      "text": "管理"
+      },
+      {
+      "pagePath": "pages/publish/publish",
+      "iconPath": "./images/tag/fabu.png",
+      "selectedIconPath": "./images/tag/fabu.png",
+      "text": "发布"
+      },
+      {
+      "pagePath": "pages/make/make",
+      "iconPath": "./images/tag/zhizuo.png",
+      "selectedIconPath": "./images/tag/zhizuodianji.png",
+      "text": "制作"
+      },
+      {
+      "pagePath": "pages/mine/mine",
+      "iconPath": "./images/tag/wode.png",
+      "selectedIconPath": "./images/tag/wodedianji.png",
+      "text": "我的"
+      }
+    ]}
 }

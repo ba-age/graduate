@@ -1,11 +1,15 @@
 //app.js
 App({
-  onLaunch: function () {
+  onLaunch: function (options) {
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
     wx.setStorageSync('logs', logs)
-
+    if (options.scene == 1007 || options.scene == 1008) {
+      this.globalData.share = true
+    } else {
+      this.globalData.share = false
+    };
     // 登录
     wx.login({
       success: res => {
@@ -32,8 +36,15 @@ App({
         }
       }
     })
+    wx.getSystemInfo({
+      success: (res) => {
+        this.globalData.height = res.statusBarHeight
+      }
+    })
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    share: false,  // 分享默认为false
+    height: 0,
   }
 })

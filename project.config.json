@@ -1,20 +1,14 @@
 {
-<<<<<<< HEAD
 	"description": "项目配置文件",
 	"packOptions": {
 		"ignore": []
 	},
-=======
-	"miniprogramRoot": "miniprogram/",
-	"cloudfunctionRoot": "cloudfunctions/",
->>>>>>> cd2c2d9c38b4f42e002fcc4ceb1de67d89a14e61
 	"setting": {
 		"urlCheck": true,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
-<<<<<<< HEAD
 		"autoAudits": false,
 		"coverView": true
 	},
@@ -26,13 +20,6 @@
 		"hidedInDevtools": []
 	},
 	"isGameTourist": false,
-=======
-		"enhance": true
-	},
-	"appid": "wx70b374a5deb051c6",
-	"projectname": "%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9",
-	"libVersion": "2.8.1",
->>>>>>> cd2c2d9c38b4f42e002fcc4ceb1de67d89a14e61
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
 	"condition": {
@@ -44,32 +31,42 @@
 			"current": -1,
 			"list": []
 		},
-<<<<<<< HEAD
-		"game": {
-			"currentL": -1,
-			"list": []
-		},
-		"miniprogram": {
-			"current": -1,
-			"list": []
-=======
 		"plugin": {
 			"current": -1,
 			"list": []
 		},
 		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": -1,
 			"list": [
 				{
 					"id": -1,
-					"name": "db guide",
-					"pathName": "pages/databaseGuide/databaseGuide"
+					"name": "pages/manage/manage",
+					"pathName": "pages/manage/manage",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/mine/mine",
+					"pathName": "pages/mine/mine",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/index/index",
+					"pathName": "pages/index/index",
+					"scene": null
 				}
 			]
->>>>>>> cd2c2d9c38b4f42e002fcc4ceb1de67d89a14e61
 		}
 	}
 }

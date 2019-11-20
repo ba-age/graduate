@@ -1,0 +1,37 @@
+.tab_bar_wrap{
+  width: 100%;
+  height: 117rpx;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column-reverse
+}
+.tab_bar_wrap .circle{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -10rpx;
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  border: 2rpx solid #EAEAEA;
+  background: #fff
+}
+.tab_bar_wrap .item_wrap{
+  height: 100rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 24rpx;
+  border-top: 2rpx solid #EAEAEA
+}
+.item_wrap .tab_bar_item{
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+.tab_bar_item cover-image{
+  width: 46rpx;
+  height: 46rpx
+}

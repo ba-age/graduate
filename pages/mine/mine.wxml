@@ -1,0 +1,6 @@
+<!--pages/mine/mine.wxml-->
+<nav-bar navbarData="{{navbarData}}"></nav-bar>
+<view class="container" style="margin-top:{{statusHeight+44}}px">
+
+</view>
+<tab-bar selected="4"></tab-bar>

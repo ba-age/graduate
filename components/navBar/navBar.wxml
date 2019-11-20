@@ -1,0 +1,9 @@
+<view class="nav_bar">
+  <view style="height: {{height}}px"></view>
+  <view class="nav_wrap">
+    <view class="img_wrap" wx-if="{{navbarData.isBack}}" bindtap="navback">
+      <image src="../../images/back.png"></image>
+    </view>
+    <text>{{navbarData.title}}</text>
+  </view>
+</view>

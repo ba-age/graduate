@@ -1,0 +1,6 @@
+<!--pages/manage/manage.wxml-->
+<nav-bar navbarData="{{navbarData}}"></nav-bar>
+<view class="container" style="margin-top:{{statusHeight+44}}px">
+
+</view>
+<tab-bar selected="1"></tab-bar>
