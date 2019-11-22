@@ -1,11 +1,12 @@
 {
   "pages": [
+    "pages/publish/publish",
     "pages/index/index",
     "pages/logs/logs",
     "components/navBar/navBar",
     "components/tabBar/tabBar",
     "pages/manage/manage",
-    "pages/publish/publish",
+    
     "pages/make/make",
     "pages/mine/mine"
   ],
