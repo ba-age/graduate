@@ -11,7 +11,18 @@ Page({
       isBack: false, //是否显示左上角图标   1表示显示    0表示不显示
       title: '新闻', //导航栏 中间的标题
     },
-    statusHeight: app.globalData.height
+    statusHeight: app.globalData.height,
+    // src: ["../../images/publish/zuoping.png",
+    //   "../../images/publish/keping.png",
+    //   "../../images/publish/xiaoxi.png",
+    // ],
+    // txt:[
+    //   "发布作品",
+    //   "发布评论",
+    //   "发布感慨"
+    // ]
+    pushdata: [{ src: "../../images/publish/zuoping.png", txt: "发布作品" }, { src: "../../images/publish/keping.png", txt: "发布视频" },
+      { src: "../../images/publish/xiaoxi.png", txt: "发布评论" }]
   },
 
   /**

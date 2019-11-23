@@ -1,1 +1,24 @@
 /* pages/publish/publish.wxss */
+.push-list{
+  display: flex;
+  align-items: center;
+  width: 40%;
+  height: 120rpx;
+  background-color: #c28d3f93;
+  float: left;
+  margin-left:7%;
+  margin-bottom: 30rpx;
+  box-shadow: 2px 2px 6px #888888;
+
+}
+.push-list image{
+  width: 110rpx;
+  height: 100rpx;
+  
+}
+.txt{
+  width: 80%;
+  height: 100%;
+  text-align: center;
+  line-height: 120rpx;
+}
